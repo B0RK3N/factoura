@@ -13,7 +13,9 @@ A simple quote and invoice app for freelancers in Tunisia. Create a document, ch
 - Browser-local saved documents and payment tracking
 - Total invoiced, paid, and outstanding summaries
 - Fresh document references and duplicate-reference checks
-- Downloadable JSON backup of saved documents
+- JSON backup export and restore with validation and duplicate protection
+- Search by client or reference and filter by payment state
+- Overdue invoice badges and an overdue total
 
 ## Run locally
 
@@ -33,11 +35,11 @@ HTML, CSS, and JavaScript. Browser local storage holds documents. There is no ba
 
 ## Privacy and limitations
 
-Saved documents stay on the current device and browser. Clearing browser storage can remove them. Download a backup regularly; this version exports backups but does not yet import them. Demo details are fictional. Browser PDF output depends on the print settings. This prototype does not guarantee compliance with invoicing requirements.
+Saved documents stay on the current device and browser. Clearing browser storage can remove them. Download a backup regularly; use Restore to import a backup on another browser. Existing documents are preserved and duplicates skipped. Demo details are fictional. Browser PDF output depends on the print settings. This prototype does not guarantee compliance with invoicing requirements.
 
 ## Next improvements
 
-- Backup import and cloud synchronization
+- Cloud synchronization
 - Business address and registration fields
 - A saved-client directory
 - Dedicated PDF downloads
